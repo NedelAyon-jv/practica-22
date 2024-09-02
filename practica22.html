@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paisaje</title>
+</head>
+
+<body>
+    <canvas id="canvas" width="1000px" height="1000px"></canvas>
+    <script type="text/javascript">
+        const myCanvas = document.getElementById("canvas");
+        const ctx = myCanvas.getContext("2d");
+
+
+        ctx.fillStyle = "#819a7f";
+        ctx.fillRect(0, 0, 820, 820);      
+
+
+       //ctx.beginPath();
+        ctx.fillStyle = "#591327";
+        ctx.fillRect(80, 300, 640, 520);
+        //ctx.stroke();
+
+        ctx.fillStyle = "#888888";
+        ctx.fillRect(330, 570, 150, 250);
+        
+        ctx.fillStyle = "#d2a7a7"
+        ctx.fillRect(150, 450, 100, 100);
+
+          
+        ctx.fillStyle = "#d2a7a7"
+        ctx.fillRect(580, 350, 100, 100);
+
+        ctx.fillStyle = "#f33d3d"
+        ctx.fillRect(20, 250, 750, 50);
+
+        ctx.fillStyle = "#f33d3d"
+        ctx.fillRect(70, 200, 650, 50);
+
+        ctx.fillStyle = "#f33d3d"
+        ctx.fillRect(120, 150, 550, 50);
+       
+        ctx.fillStyle = "#f33d3d"
+        ctx.fillRect(170, 100, 450, 50);
+
+        
+        ctx.beginPath();
+        ctx.arc(450, 700, 15, 0, Math.PI * 2, true)
+        ctx.fillStyle = "#362929";
+        ctx.fill();
+
+    </script>
+</body>
+
+</html>
